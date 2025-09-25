@@ -1,4 +1,5 @@
-import { Badge } from "@material-ui/core";
+// import { Badge } from "@material-ui/core";
+import { Badge } from "@mui/material";
 // import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
