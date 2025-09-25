@@ -1,4 +1,8 @@
-import { Add, Remove } from "@material-ui/icons";
+// import { Add, Remove } from "@material-ui/icons";
+import AddIcon from "@mui/icons-material/Add";
+import RemoveIcon from "@mui/icons-material/Remove";
+
+
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -244,9 +248,9 @@ const Cart = () => {
                 </ProductDetail>
                 <PriceDetail>
                   <ProductAmountContainer>
-                    <Add />
+                    <AddIcon />
                     <ProductAmount>{product.quantity}</ProductAmount>
-                    <Remove />
+                    <RemoveIcon />
                   </ProductAmountContainer>
                   <ProductPrice>{product.price*product.quantity}</ProductPrice>
                 </PriceDetail>

@@ -1,6 +1,9 @@
 import React from 'react';
 
-import { Add, Remove } from "@material-ui/icons";
+// import { Add, Remove } from "@material-ui/icons";
+import AddIcon from "@mui/icons-material/Add";
+import RemoveIcon from "@mui/icons-material/Remove";
+
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -221,9 +224,9 @@ const Product = () => {
           </FilterContainer>
           <AddContainer>
             <AmountContainer>
-              <Remove onClick={() =>handleQuantity("dec")}/>
+              <RemoveIcon onClick={() =>handleQuantity("dec")}/>
               <Amount>{quantity}</Amount>
-              <Add onClick={() =>handleQuantity("inc")}/>
+              <AddIcon onClick={() =>handleQuantity("inc")}/>
             </AmountContainer>
             <Button onClick={handleClick}>ADD TO CART</Button>
           </AddContainer>
